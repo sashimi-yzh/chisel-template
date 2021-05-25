@@ -16,7 +16,7 @@ We recommend LTS releases Java 8 and Java 11. You can install the JDK as recomme
 #### SBT or mill
 
 SBT is the most common built tool in the Scala community. You can download it [here](https://www.scala-sbt.org/download.html).  
-mill is another Scala/Java build tool without obscure DSL like SBT. You can download it [here](https://github.com/com-lihaoyi/mill/releases)
+mill is another Scala/Java build tool without obscure DSL like SBT. It is much faster than SBT. Refer to the documentation [here](https://com-lihaoyi.github.io/mill) to download mill.
 
 ### How to get started
 
@@ -84,6 +84,16 @@ You should see a whole bunch of output that ends with something like the followi
 If you see the above then...
 
 ### It worked!
+
+To run test with mill:
+```
+make test
+```
+
+To generate verilog with mill:
+```
+make verilog
+```
 
 You are ready to go. We have a few recommended practices and things to do.
 
